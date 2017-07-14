@@ -1,0 +1,28 @@
+
+
+// Top bar (example to change color)
+$primary-color: #06799f
+
+// Change top left logo
+$header-home-link-bg: image-url('logo_teamagora.png') no-repeat 20px 0
+
+// Hide top right menu (help icon)
+.account-nav li a.icon-help 
+  display: none
+
+// Hide documentation in footer of wlecome screen
+div#content section.homescreen--links 
+  display: none
+
+// Hide the footer 
+.footer-content
+  display: none
+
+// Hide Last Widget, supposed to be the "Openrpoject community"... but cannot be sure, as far as there is no ccs unique accessor
+div#content div.widget-box:nth-child(3)
+  display: none
+
+// Hide title "Openproject" in <h2> with icon of building
+#content div.widget-boxes--screen-header
+  display: none
+

@@ -1,0 +1,3 @@
+OpenProject teamagora-Theme Plugin
+=============================
+
